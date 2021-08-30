@@ -1,0 +1,6 @@
+{
+	"appId": "com.billbrocker.orngapp2",
+	"appName": "OrngApp2",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

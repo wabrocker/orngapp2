@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'com.billbrocker.orngapp2',
   appName: 'OrngApp2',
   webDir: 'www',
   bundledWebRuntime: false
