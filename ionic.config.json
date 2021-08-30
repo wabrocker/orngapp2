@@ -1,0 +1,7 @@
+{
+  "name": "OrngApp2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
