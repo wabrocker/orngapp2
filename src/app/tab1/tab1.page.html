@@ -7,10 +7,10 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-card>
-    <ion-img src="../assets/mountainsportrait.jpeg"></ion-img>
+  <ion-card [routerLink]="['activity-detail', activity.id]" button *ngFor="let activity of (activityList | async)">
+    <ion-img [src]="activity.cropped"></ion-img>
     <ion-card-header>
-      <ion-card-title>Mountain Excursion</ion-card-title>
+      <ion-card-title>{{activity.name}}</ion-card-title>
     </ion-card-header>
   </ion-card>
 </ion-content>
